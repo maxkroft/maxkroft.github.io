@@ -721,6 +721,15 @@ input, select, textarea {
 
 		}
 
+
+/* no overlay */
+
+	.image.main.no-overlay::before {
+		background: transparent !important;
+		background-image: none !important;
+		opacity: 1 !important;
+	}
+
 /* List */
 
 	ol {
